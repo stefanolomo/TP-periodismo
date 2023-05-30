@@ -1,0 +1,63 @@
+@import url(./normalize.css);
+@import url(./variables.css);
+
+header{
+	font-family: 'Times New Roman', Times, serif;
+	padding: var(--xxl) var(--xxxxxl);
+	margin-bottom: var(--xxxl);
+}
+main{
+	display: flex;
+	flex-direction: column;
+	padding: 0 8.4rem;
+	h2{
+		font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+		font-size: 2.4em;
+		line-height: 1.4;
+		font-weight: normal;
+	}
+	h2,
+	.volanta,
+	.bajada{
+		margin: var(--xxl);
+	}
+	h2,
+	.volanta{
+		text-align: center;
+	}
+	.bajada{
+		text-align: center;
+		padding: var(--xxl) 12rem;
+		font-family: 'Times New Roman', Times, serif;
+		font-size: 1.2em;
+	}
+	.volanta{
+		font-family: 'Times New Roman', Times, serif;
+		font-size: 1.2em;
+	}
+	p, li{
+		line-height: 1.4;
+		font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	}
+	img{
+		width: 650px;
+		max-width: 100%;
+		display: block;
+		padding-top: var(--xxl);
+		margin: 0 auto;
+	}
+	h3{
+		margin: 0.8rem 0 0.4rem 0;
+	}
+	hr{
+		width: 100%;
+	}
+	@media (max-width: 900px) {
+		main{
+			padding: 0 2.4rem;
+		}
+		p.bajada{
+			padding: var(--xxl) 2.4rem;
+		}
+	}
+}

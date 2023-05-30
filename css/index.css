@@ -1,0 +1,63 @@
+@import url(normalize.css);
+@import url(variables.css);
+header {
+  font-family: 'Times New Roman', Times, serif;
+  padding: var(--xxl) var(--xxxxxl);
+  margin-bottom: var(--xxxl);
+}
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 0 8.4rem;
+}
+main h2 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 2.4em;
+  line-height: 1.4;
+  font-weight: normal;
+}
+main h2,
+main .volanta,
+main .bajada {
+  margin: var(--xxl);
+}
+main h2,
+main .volanta {
+  text-align: center;
+}
+main .bajada {
+  text-align: center;
+  padding: var(--xxl) 12rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2em;
+}
+main .volanta {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2em;
+}
+main p,
+main li {
+  line-height: 1.4;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+main img {
+  width: 650px;
+  max-width: 100%;
+  display: block;
+  padding-top: var(--xxl);
+  margin: 0 auto;
+}
+main h3 {
+  margin: 0.8rem 0 0.4rem 0;
+}
+main hr {
+  width: 100%;
+}
+@media (max-width: 900px) {
+  main main {
+    padding: 0 2.4rem;
+  }
+  main p.bajada {
+    padding: var(--xxl) 2.4rem;
+  }
+}
