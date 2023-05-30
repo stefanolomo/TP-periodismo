@@ -10,6 +10,9 @@ main {
   flex-direction: column;
   padding: 0 8.4rem;
 }
+main #foto1 {
+  max-width: 45%;
+}
 main h2 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 2.4em;
@@ -36,7 +39,8 @@ main .volanta {
   font-size: 1.2em;
 }
 main p,
-main li {
+main li,
+main blockquote {
   line-height: 1.4;
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
